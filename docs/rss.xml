@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Meekdai</title><link>http://blog.meekdai.com</link><description>童话是一种生活态度，仅此而已。</description><copyright>Meekdai</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>http://meekdai.com/avatar.jpg</url><title>avatar</title><link>http://blog.meekdai.com</link></image><lastBuildDate>Thu, 14 Dec 2023 01:49:41 +0000</lastBuildDate><managingEditor>Meekdai</managingEditor><pubDate>Thu, 14 Dec 2023 01:49:41 +0000</pubDate><ttl>60</ttl><webMaster>Meekdai</webMaster><item><title>Linux 安装nginx</title><link>http://blog.meekdai.com/post/Linux%20-an-zhuang-nginx.html</link><description>### 安装&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>罗警官</title><link>https://aimerrhythm.cn</link><description>柔弱不是因为胆怯，而是不喜欢嚣张。</description><copyright>罗警官</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/38688241?v=4</url><title>avatar</title><link>https://aimerrhythm.cn</link></image><lastBuildDate>Thu, 14 Dec 2023 02:14:18 +0000</lastBuildDate><managingEditor>罗警官</managingEditor><pubDate>Thu, 14 Dec 2023 02:14:18 +0000</pubDate><ttl>60</ttl><webMaster>罗警官</webMaster><item><title>Linux 安装nginx</title><link>https://aimerrhythm.cn/post/Linux%20-an-zhuang-nginx.html</link><description>### 安装&#13;
 `sudo apt-get install nginx`&#13;
 &#13;
 ### 重启nginx&#13;
@@ -21,4 +21,4 @@ vim /etc/nginx/nginx.conf&#13;
 - /usr/sbin/nginx：主程序&#13;
 - /etc/nginx：存放配置文件&#13;
 - /usr/share/nginx：存放静态文件&#13;
-- /var/log/nginx：存放日志。</description><guid isPermaLink="true">http://blog.meekdai.com/post/Linux%20-an-zhuang-nginx.html</guid><pubDate>Thu, 14 Dec 2023 01:49:20 +0000</pubDate></item></channel></rss>
+- /var/log/nginx：存放日志。</description><guid isPermaLink="true">https://aimerrhythm.cn/post/Linux%20-an-zhuang-nginx.html</guid><pubDate>Thu, 14 Dec 2023 01:49:20 +0000</pubDate></item></channel></rss>
