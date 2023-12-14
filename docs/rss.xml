@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Meekdai</title><link>http://blog.meekdai.com</link><description>童话是一种生活态度，仅此而已。</description><copyright>Meekdai</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>http://meekdai.com/avatar.jpg</url><title>avatar</title><link>http://blog.meekdai.com</link></image><lastBuildDate>Thu, 14 Dec 2023 01:49:41 +0000</lastBuildDate><managingEditor>Meekdai</managingEditor><pubDate>Thu, 14 Dec 2023 01:49:41 +0000</pubDate><ttl>60</ttl><webMaster>Meekdai</webMaster><item><title>Linux 安装nginx</title><link>http://blog.meekdai.com/post/Linux%20-an-zhuang-nginx.html</link><description>### 安装&#13;
+`sudo apt-get install nginx`&#13;
+&#13;
+### 重启nginx&#13;
+`systemctl restart nginx `&#13;
+&#13;
+### 编写配置&#13;
+[ispweb.zip](https://github.com/BalsamPearTaste/BalsamPearTaste.github.io/files/13667355/ispweb.zip)&#13;
+ispweb.conf复制 过去/etc/nginx/conf.d/ispweb.conf&#13;
+调整对应ip、端口和路径&#13;
+#vim /etc/nginx/conf.d/ispweb.conf&#13;
+vim /etc/nginx/nginx.conf&#13;
+#       include /etc/nginx/sites-enabled/*;   #注释该行&#13;
+&#13;
+### 验证配置&#13;
+`nginx -t `&#13;
+&#13;
+### nginx文件路径：&#13;
+&#13;
+- /usr/sbin/nginx：主程序&#13;
+- /etc/nginx：存放配置文件&#13;
+- /usr/share/nginx：存放静态文件&#13;
+- /var/log/nginx：存放日志。</description><guid isPermaLink="true">http://blog.meekdai.com/post/Linux%20-an-zhuang-nginx.html</guid><pubDate>Thu, 14 Dec 2023 01:49:20 +0000</pubDate></item></channel></rss>
